@@ -14,7 +14,7 @@
             <h1 class='main-title'>
                 <big>Send Email</big> <br>
             </h1>
-            <form class="contact-form" action="contactform.php" method="post">
+            <form class="contact-form" action="styles/contactform.php" method="post">
               <input type="text" name="name" placeholder="Full Name">
               <input type="text" name="mail" placeholder="Your Email">
               <input type="text" name="subject" placeholder="Subject">
