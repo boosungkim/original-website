@@ -8,28 +8,19 @@
   <body>
     <div class='page'>
         <header class="site-header">
-            <nav class="main-nav">
-                <ul>
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href='blog.html'>Blog</a></li>
-                  <li><a href='projects.html'>Projects</a></li>
-                  <!-- <li><a href='videos.html'>Videos</a></li> -->
-                  <li><a href='resume.pdf'>Resume</a></li>
-                  <!--Maybe art-->
-                </ul>
-            </nav>
+          <?php include "./scripts/nav.php"; ?>
         </header>
         <main>
             <h1 class='main-title'>
                 <big>Boo Sung's Blog Index</big> <br>
             </h1>
-            <span><a href="blogrolling.html">Rolling view</a></span>
+            <span><a href="blogrolling.php">Rolling view</a></span>
             <div class="blog-section">
                 <h2>May 2020</h2>
                 <table class='blogindex' style='width:100%'>
                   <tr>
                     <td style='width:10%'>2020/05/25</td>
-                    <td style='width:40%'><a href="blogs/test-post.html">Test post</a></td>
+                    <td style='width:40%'><a href="blogs/template.php">Test post</a></td>
                     <td style='width:50%'>[Sample][Tag][Right][Here]</td>
                   </tr>
                   <!--Insert new blog here-->

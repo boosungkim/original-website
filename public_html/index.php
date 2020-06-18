@@ -8,7 +8,7 @@
   <body>
     <div class='page'>
       <header class="site-header">
-          <?php include "./nav.php"; ?>
+          <?php include "./scripts/nav.php"; ?>
       </header>
       <main>
         <h1 class='main-title'>
@@ -118,7 +118,7 @@
             <table class='blogindex' style='width:100%'>
                   <tr>
                     <td style='width:10%'>2020/05/25</td>
-                    <td style='width:40%'><a href="blog/test-post.html">Test post</a></td>
+                    <td style='width:40%'><a href="blogs/template.php">Test post</a></td>
                     <td style='width:50%'>[Sample][Tag][Right][Here]</td>
                   </tr>
                   <tr>

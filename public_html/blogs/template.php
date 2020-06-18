@@ -8,16 +8,7 @@
   <body>
     <div class='page'>
         <header class="site-header">
-            <nav class="main-nav">
-                <ul>
-                  <li><a href="../index.html">Home</a></li>
-                  <li><a href='../blogindex.html'>Blog</a></li>
-                  <li><a href='../projects.html'>Projects</a></li>
-                  <!-- <li><a href='../videos.html'>Videos</a></li> -->
-                  <li><a href='../resume.pdf'>Resume</a></li>
-                  <!--Maybe art-->
-                </ul>
-            </nav>
+          <?php include "../scripts/nav.php"; ?>
         </header>
         <main>
             <h1>
@@ -31,7 +22,7 @@
                 This can also be used as a template.
               </p>
             </div>
-            <p>by <a href="../index.html">Boo Sung Kim</a></p>
+            <p>by <a href="../index.php">Boo Sung Kim</a></p>
         </main>
     </div>
   </body>

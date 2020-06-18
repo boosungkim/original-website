@@ -8,27 +8,18 @@
   <body>
     <div class='page'>
         <header class="site-header">
-            <nav class="main-nav">
-                <ul>
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href='blog.html'>Blog</a></li>
-                  <li><a href='projects.html'>Projects</a></li>
-                  <!-- <li><a href='videos.html'>Videos</a></li> -->
-                  <li><a href='resume.pdf'>Resume</a></li>
-                  <!--Maybe art-->
-                </ul>
-            </nav>
+          <?php include "./scripts/nav.php"; ?>
         </header>
         <main>
             <h1>
                 <big>Boo Sung's Rolling Blog</big> <br>
             </h1>
-            <a href="blog.html">Blog Index</a>
+            <a href="blog.php">Blog Index</a>
             <div class="rolling-post">
               <h2>Test Post</h2>
               <small>
                 2020 May 20 <br>
-                <a href="blogs/test-post.html">Link</a>
+                <a href="blogs/template.php">Link</a>
               </small>
               <p>
                 This is a test post.
