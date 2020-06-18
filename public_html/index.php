@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Boo Sung Kim's Homepage</title>
-    <link rel="stylesheet" href="styles/styles.css?version=1.0.0">
+    <?php include "./scripts/stylesheet.php"; ?>
   </head>
   <body>
     <div class='page'>
@@ -99,7 +99,7 @@
                 <a href="https://www.youtube.com/converge2diverge">Converge2Diverge</a> (C2D) is a YouTube channel mainly about Mathematics, though I have started uploading Computer Science/Programming content recently.
               </p>
               <p>
-                The logo, designed by my friend Andy Lee (<a href="https://www.instagram.com/hi_sseungchol/">his instagram</a>), is the Greek letter Phi (φ), which is the symbol for the Golden Ratio.
+                The logo, designed by my friend <a href="https://www.instagram.com/hi_sseungchol/">Andy Lee</a>, is the Greek letter Phi (φ), which is the symbol for the Golden Ratio.
               </p>
               <p>
                 The name "Converge2Diverge" stems from a Math high school club I founded back in 2017: Converge to Diverge. I chose the name for two reasons:

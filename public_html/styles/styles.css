@@ -158,7 +158,7 @@ footer {
     padding-bottom: 3em;
 }
 
-/*---------- blogindex.html specific ----------*/
+/*---------- blogindex.php specific ----------*/
 
 .blog-section {
     padding-top: 20px;
@@ -175,13 +175,13 @@ footer {
 }
 
 
-/*---------- post.html specific ----------*/
+/*---------- post.php specific ----------*/
 
 .post p {
     padding-bottom: 15px;
 }
 
-/*---------- rolling-post.html specific ----------*/
+/*---------- rolling-post.php specific ----------*/
 
 .rolling-post {
     border: solid;
@@ -200,7 +200,7 @@ footer {
     padding-bottom: 15px;
 }
 
-/*---------- projects.html specific ----------*/
+/*---------- projects.php specific ----------*/
 .project-title-top{
     text-align: center;
     padding-bottom: 30px;
@@ -244,3 +244,28 @@ footer {
   text-align: left;
   justify-content: space-around;
 }
+
+/*---------- contactme.php specific ----------*/
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-form > input[type=text], button, textarea {
+  padding: 1em;
+  width: 50%;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+/* .contact-form textarea {
+  padding: 1em;
+  padding-bottom: 4em;
+  margin: 1em;
+  min-width: 300px;
+} */

@@ -3,7 +3,7 @@
     <head>
     <meta charset="utf-8">
     <title>Boo Sung Kim's Blog Index</title>
-    <link rel="stylesheet" href="styles/styles.css?version=1.0.0">
+    <?php include "./scripts/stylesheet.php"; ?>
   </head>
   <body>
     <div class='page'>
