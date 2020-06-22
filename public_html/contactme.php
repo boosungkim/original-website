@@ -14,7 +14,7 @@
             <h1 class='main-title'>
                 <big>Send Email</big> <br>
             </h1>
-            <div class="f">
+            <div class="contact-area">
               <div class="contact-error">
               <?php
               if(isset($_GET['x'])){
@@ -27,9 +27,9 @@
                 <input type="text" name="mail" placeholder="Your Email">
                 <input type="text" name="subject" placeholder="Subject">
                 <textarea name="message" placeholder="Message"></textarea>
-                <!-- <input type="submit" value="Submit"> -->
                 <button type="submit" name="submit">SEND EMAIL</button>
               </form>
+              <p>or email me at boosungk@gmail.com!</p>
             </div>
         </main>
     </div>

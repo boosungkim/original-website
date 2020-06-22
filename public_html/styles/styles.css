@@ -246,7 +246,11 @@ footer {
 }
 
 /*---------- contactme.php specific ----------*/
-
+.contact-area p{
+  text-align: center;
+  padding-top: 2em;
+  color: #B0E2FF;
+}
 .contact-form {
   display: flex;
   flex-direction: column;
