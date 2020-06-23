@@ -5,6 +5,7 @@
     <li><a href='../projects.php'>Projects</a></li>
     <li><a href='../resume.pdf'>Resume</a></li>
     <li><a href='../contactme.php'>Contact Me</a></li>
+    <li><a href='../contactme.php'>Contact Me</a></li>
     <!--Maybe art-->
   </ul>
 </nav>
