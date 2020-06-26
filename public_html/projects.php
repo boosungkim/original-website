@@ -33,7 +33,6 @@
                 <br/>
                 <p>Currently: Swtiching the code back to Python for better implementation of future ideas. Adding a subscription system.</p>
                 </div>
-
                 <span>
                   <p>Technology Used</p>
                   <div class="table-section">

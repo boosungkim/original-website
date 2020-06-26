@@ -16,14 +16,14 @@
             </h1>
             <span><a href="blogrolling.php">Rolling view</a></span>
             <div class="blog-section">
-                <h2>May 2020</h2>
+                <!--Insert new blog here-->
+                <h2>June 2020</h2>
                 <table class='blogindex' style='width:100%'>
                   <tr>
-                    <td style='width:10%'>2020/05/25</td>
-                    <td style='width:40%'><a href="blogs/template.php">Test post</a></td>
-                    <td style='width:50%'>[Sample][Tag][Right][Here]</td>
+                    <td style='width:10%'>2020/06/26</td>
+                    <td style='width:40%'><a href="blogs/june2020/blog-zero-why-i-started-a-blog.php">Blog Zero: Why I started a blog</a></td>
+                    <td style='width:50%'>[Blog]</td>
                   </tr>
-                  <!--Insert new blog here-->
                 </table>
             </div>
         </main>

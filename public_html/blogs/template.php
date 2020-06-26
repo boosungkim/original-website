@@ -3,12 +3,13 @@
     <head>
     <meta charset="utf-8">
     <title>Test Post - Boo Sung's blog</title>
-    <?php include "../scripts/stylesheet.php"; ?>
+    <!-- Stylesheet will not work unless the this file exists in a specifc month folder -->
+    <?php include "../../scripts/stylesheet.php"; ?>
   </head>
   <body>
     <div class='page'>
         <header class="site-header">
-          <?php include "../scripts/nav.php"; ?>
+          <?php include "../../scripts/nav.php"; ?>
         </header>
         <main>
             <h1>
