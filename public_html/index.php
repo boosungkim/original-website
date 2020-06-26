@@ -117,9 +117,9 @@
             <h2>Recent Blogs</h2>
             <table class='blogindex' style='width:100%'>
                   <tr>
-                    <td style='width:10%'>2020/05/25</td>
-                    <td style='width:40%'><a href="blogs/template.php">Test post</a></td>
-                    <td style='width:50%'>[Sample][Tag][Right][Here]</td>
+                    <td style='width:10%'>2020/06/26</td>
+                    <td style='width:40%'><a href="blogs/june2020/blog-zero-why-i-started-a-blog.php">Blog Zero: Why I started a blog</a></td>
+                    <td style='width:50%'>[Blog]</td>
                   </tr>
                   <tr>
                     <td style='width:10%'></td>

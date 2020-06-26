@@ -13,6 +13,7 @@
         <main>
             <h1 class='main-title'>
                 <big>Blog Zero: Why I started a blog</big> <br>
+                <small>2020/06/26</small>
             </h1>
             <div class="post">
               <p>
