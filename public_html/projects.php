@@ -17,33 +17,26 @@
             <h1 class='project-title'>
                 <small>Ongoing</small>
             </h1>
-            <!--
-            <div class='project-post'>
-              <div class=left-section>
-                <h2>Data Structures and Algorithms from Scratch</h2>
-                <p></p>
-                <small><a href="https://github.com/boosungkim/dsa-from-scratch">Link to code</a></small>
-              </div>
-            </div>
-          -->
             <!-- Enter new ongoing projects here -->
             <!-- The Dickinson Menu Bot -->
             <div class='project-post'>
               <div class='top-section'>
                 <div class=left-section>
                   <div>
-                  <h2>Dickisnon Menu Bot</h2>
-                  <small>Sept 2019 - Present</small></br>
-                  <small><a href="https://github.com/boosungkim/dickinson-menu-bot">GitHub</a></small>
+                  <h2>Dickinson Menu Bot</h2>
+                  <small class="project-info">(Sept 2019 - Present)</small>
+                  <small class="project-info"><a href="https://github.com/boosungkim/dickinson-menu-bot">GitHub</a></small>
                   <p><i>A Java webscraper that extracts and emails the users the daily menu from the Dickinson College Dining website.</i></p>
                   <br/>
-                  <p><b>Motivation:</b> I overheard my classmates complaining about how the college has no means of sending the dining menu to students directly, so I decided to make a program to solve the inconvenience.</p>
+                  <p><b>Motivation:</b></p>
+                  <p>I overheard my classmates complaining about how the college has no means of sending the dining menu to students directly, so I decided to make a program to solve the inconvenience.</p>
                   <br/>
-                  <p><b>Impact:</b> Offers both the students and faculty on campus an easy method of checking the menu. Current userbase: 20.</p>
+                  <p><b>Impact:</b></p>
+                  <p>Offers both the students and faculty on campus an easy method of checking the menu. Current userbase: 20.</p>
                   <br/>
                   <p><b>In development:</b></p>
-                  <p>Swtiching the code back to Python for better implementation of future ideas.</p>
-                  <p>Adding a subscription system to increase userbase.</p>
+                  <p>Switch Java code to Python for better implementation of future ideas.</p>
+                  <p>Add a subscription system/database to increase userbase.</p>
                   </div>
                   <br/>
                 </div>
@@ -71,13 +64,15 @@
                 <div class=left-section>
                   <div>
                   <h2>Personal Web Server System</h2>
-                  <small>May 2020 - Present</small><br/>
-                  <small><a href="https://github.com/boosungkim/personal-website">Website Specific Code</a></small>
-                  <p><i></i></p>
+                  <small class="project-info">(May 2020 - Present)</small>
+                  <small class="project-info"><a href="https://github.com/boosungkim/personal-website">Website Specific Code</a></small>
+                  <p><i>My Debian based web server hosted on a Virtual Private Server for websites/web applications.</i></p>
                   <br/>
-                  <p><b>Motivation:</b> To host my website and various other web applications with the freedom to incorporate scripts for automation, I decided to host my own web server on a Virtual Private Server.</p>
+                  <p><b>Motivation:</b></p>
+                  <p>To host my website and various other web applications with the freedom to incorporate scripts for automation, I decided to host my own web server on a Virtual Private Server.</p>
                   <br/>
-                  <p><b>Impact:</b> So far, I have been able to learn the process of setting up a Debian Linux server, server security measures with SSH and a firewall, X.509 HTTPS certificate for TLS encryption, and an SMTP mail server.</p>
+                  <p><b>Impact:</b></p>
+                  <p>So far, I have been able to learn the process of setting up a Debian Linux server, server security measures with SSH and a firewall, X.509 HTTPS certificate for TLS encryption, and an SMTP mail server.</p>
                   <br/>
                   <p><b>In development:</b></p>
                   <p>Implementing an email subscription system using PHP and MariaDB.</p>
@@ -114,15 +109,18 @@
               <div class='top-section'>
                 <div class=left-section>
                   <h2>Personal Linux Environment Set Up</h2>
-                  <small>March 2020 - Present</small></br>
-                  <small><a href="https://github.com/boosungkim/dotfiles">GitHub</a></small>
+                  <small class="project-info">(Mar 2020 - Present)</small>
+                  <small class="project-info"><a href="https://github.com/boosungkim/dotfiles">GitHub</a></small>
                   <p><i>My personal Arch Linux workflow ported on my ThinkPad X220.</i></p>
                   <br/>
-                  <p><b>Motivation:</b> I want to be able to study the basics of the command line and Linux, customize my workflow extensively, and learn how to troubleshoot and read documents effectively.</p>
+                  <p><b>Motivation:</b></p>
+                  <p>I want to be able to study the basics of the command line and Linux, customize my workflow extensively, and learn how to troubleshoot and read documents effectively.</p>
                   <br/>
-                  <p><b>Impact:</b> I am now capable of basic usage of the Linux command line, troubleshooting, and technical documentations.</p>
+                  <p><b>Impact:</b></p>
+                  <p>I am now capable of basic usage of the Linux command line, troubleshooting, and technical documentations.</p>
                   <br/>
-                  <p><b>In development:</b> Setting up a wpa_supplicant file to allow the Linux OS to connect to the college's WPA2 Enterprise WiFi.</p>
+                  <p><b>In development:</b></p>
+                  <p>Setting up a wpa_supplicant file to allow the Linux OS to connect to the college's WPA2 Enterprise WiFi.</p>
                 </div>
                 <div class='right-section'>
                   <a href="images/thinkpad.png"><img src="images/thinkpad.png" alt='thinkpad with linux' width='450'/></a>
@@ -153,13 +151,15 @@
                 <div class=left-section>
                   <div>
                   <h2>Reddit Comment Responder</h2>
-                  <small>June 2019</small></br>
-                  <small><a href="https://github.com/boosungkim/TatsuBot">GitHub</a></small>
+                  <small class="project-info">(June 2019)</small>
+                  <small class="project-info"><a href="https://github.com/boosungkim/TatsuBot">GitHub</a></small>
                   <p><i>A Python Bot that responds to users on the website Reddit</i></p>
                   <br/>
-                  <p><b>Motivation:</b> Inspired by similar projects, I decided to use my basic understanding of Python to make a bot that would entertain users on Reddit. </p>
+                  <p><b>Motivation:</b></p>
+                  <p>Inspired by similar projects, I decided to use my basic understanding of Python to make a bot that would entertain users on Reddit. </p>
                   <br/>
-                  <p><b>Impact:</b> Accumulated a userbase of 100+ people during the bot's active run.</p>
+                  <p><b>Impact:</b></p>
+                  <p>Accumulated a userbase of 100+ people during the bot's active run.</p>
                   </div>
                 </div>
                 <div class='right-section'>

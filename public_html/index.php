@@ -17,7 +17,7 @@
         </h1>
         <div class='links'>
           <div class='professional'>
-            Professional:
+            <p>Professional:</p>
             <a href="mailto:kimbo@dickinson.edu">
               <img src="images/logos/pixabay-email.png" alt='Email' width="23"/>
             </a>
@@ -26,13 +26,13 @@
             </a>
           </div>
           <div class='software'>
-            Software:
+            <p>Software:</p>
             <a href="https://github.com/boosungkim">
               <img src="images/logos/vecteezy-github.svg" alt='GitHub' width="23"/>
             </a>
           </div>
           <div class='social'>
-            Social:
+            <p>Social:</p>
             <a href="https://www.youtube.com/converge2diverge">
               <img src="images/logos/vecteezy-youtube.svg" alt='YouTube' width="23"/>
             </a>
@@ -77,7 +77,7 @@
         </div>
         <div class='main-section'>
           <div class='left'>
-            <img src="images/linux-screenshot.png" alt='My Arch Linux setup'>
+            <img src="images/thinkpad.png" alt='My Arch Linux setup'>
           </div>
           <div class='right'>
             <h2>My Linux passion</h2>

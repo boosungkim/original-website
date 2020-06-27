@@ -16,6 +16,60 @@ header{
     width: 100%;
 }
 
+@font-face {
+  font-family: Bitter;
+  src: url("/fonts/Bitter/Bitter-Regular.ttf");
+}
+@font-face {
+  font-family: Bitter-Italic;
+  src: url("/fonts/Bitter/Bitter-Italic.ttf");
+}
+
+@font-face {
+  font-family: Dosis;
+  src: url("/fonts/Dosis/static/Dosis-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url("/fonts/Open_Sans/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("/fonts/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: Poly;
+  src: url("/fonts/Poly/Poly-Regular.ttf");
+}
+
+h1 > big{
+  font-family: Dosis;
+}
+
+h1 > small {
+  font-family: OpenSans;
+}
+
+i, small{
+  font-family: Poly;
+}
+
+h2, .main-nav a {
+  font-family: Bitter;
+}
+
+p, .blogindex td, li {
+  font-family: Roboto;
+}
+
+a {
+  font-family: Bitter-Italic;
+}
+
+
 .main-nav {
     width: 100%;
     padding-left: 200px;
@@ -236,6 +290,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-bottom: 5px;
 }
 
 .project-post > .left-section {
@@ -253,6 +308,10 @@ footer {
   flex-direction: row;
   text-align: left;
   justify-content: space-around;
+}
+
+.project-info {
+  font-size: 15px;
 }
 
 /*---------- contactme.php specific ----------*/
@@ -310,10 +369,3 @@ footer {
 .links-contactform a:hover img {
     transform: scale(1.7, 1.7);
 }
-
-/* .contact-form textarea {
-  padding: 1em;
-  padding-bottom: 4em;
-  margin: 1em;
-  min-width: 300px;
-} */
