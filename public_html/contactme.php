@@ -12,9 +12,21 @@
         </header>
         <main>
             <h1 class='main-title'>
-                <big>Send Email</big> <br>
+                <big>Contact Me</big> <br>
             </h1>
+            <div class='links-contactform'>
+              <a href="mailto:kimbo@dickinson.edu">
+                <img src="images/logos/pixabay-email.png" alt='Email' width="40"/>
+              </a>
+              <a href="https://www.linkedin.com/in/boosungk/">
+                <img src="images/logos/vecteezy-linkedin.svg" alt='LinkedIn' width="40"/>
+              </a>
+              <a href="https://twitter.com/bytesofboosung">
+                <img src="images/logos/vecteezy-twitter.svg" alt='Twitter' width="40"/>
+              </a>
+            </div>
             <div class="contact-area">
+              <p>or use this contact form!</p>
               <div class="contact-error">
               <?php
               if(isset($_GET['x'])){
@@ -29,7 +41,6 @@
                 <textarea name="message" placeholder="Message"></textarea>
                 <button type="submit" name="submit">SEND EMAIL</button>
               </form>
-              <p>or email me at boosungk@gmail.com!</p>
             </div>
         </main>
     </div>

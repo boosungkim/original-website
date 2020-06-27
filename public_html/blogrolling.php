@@ -11,7 +11,7 @@
           <?php include "./scripts/nav.php"; ?>
         </header>
         <main>
-            <h1>
+            <h1 class='main-title'>
                 <big>Boo Sung's Rolling Blog</big> <br>
             </h1>
             <!--Insert new blog here-->
