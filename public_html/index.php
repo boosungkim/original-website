@@ -125,14 +125,14 @@
                     <p class='tags'>[Blog]</p>
                   </div>
                   <div class='row'>
-                    <span style='width:10%'></span>
-                    <span style='width:40%'><a href=""></a></span>
-                    <span style='width:50%'></span>
+                    <p class='date'></p>
+                    <p class='title'><a href=""></a></p>
+                    <p class='tags'></p>
                   </div>
                   <div class='row'>
-                    <span style='width:10%'></span>
-                    <span style='width:40%'><a href=""></a></span>
-                    <span style='width:50%'></span>
+                    <p class='date'></p>
+                    <p class='title'><a href=""></a></p>
+                    <p class='tags'></p>
                   </div>
             </table>
         </div>

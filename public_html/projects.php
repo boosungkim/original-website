@@ -25,9 +25,11 @@
                 <div class=left-section>
                   <div>
                   <h2>Dickinson Menu Bot</h2>
-                  <small class="project-info">(Sept 2019 - Present)</small>
-                  <small class="project-info"><a href="https://github.com/boosungkim/dickinson-menu-bot">GitHub</a></small>
-                  <p><i>A Java webscraper that extracts and emails the users the daily menu from the Dickinson College Dining website.</i></p>
+                  <div class="subtitle">
+                      <small class="project-info">(Sept 2019 - Present)</small>
+                      <small class="project-info"><a href="https://github.com/boosungkim/dickinson-menu-bot">GitHub</a></small>
+                  </div>
+                  <p><i id="one-line-description">A Java webscraper that extracts and emails the users the daily menu from the Dickinson College Dining website.</i></p>
                   <br/>
                   <p><b>Motivation:</b></p>
                   <p>I overheard my classmates complaining about how the college has no means of sending the dining menu to students directly, so I decided to make a program to solve the inconvenience.</p>
@@ -45,19 +47,19 @@
                   <a href="images/menu.png"><img src="images/menu.png" alt='menu' width='450'/></a>
                 </div>
               </div>
-              <span>
-                <p>Technology Used</p>
+              <div class="table-section-wrapper">
+                <p><b>Technology Used:</b></p>
                 <div class="table-section">
-                  <ul>
-                    <li>Java</li>
-                    <li>Shell scripting</li>
-                  </ul>
-                  <ul>
-                    <li>Python</li>
-                    <li>Raspberry Pi</li>
-                  </ul>
+                  <div class="col">
+                    <p>Java</p>
+                    <p>Shell scripting</p>
+                  </div>
+                  <div class="col">
+                    <p>Python</p>
+                    <p>Raspberry Pi</p>
+                  </div>
                 </div>
-              </span>
+              </div>
             </div>
             <!-- Personal Web Server System -->
             <div class='project-post'>
@@ -65,9 +67,11 @@
                 <div class=left-section>
                   <div>
                   <h2>Personal Web Server System</h2>
-                  <small class="project-info">(May 2020 - Present)</small>
-                  <small class="project-info"><a href="https://github.com/boosungkim/personal-website">Website Specific Code</a></small>
-                  <p><i>My Debian based web server hosted on a Virtual Private Server for websites/web applications.</i></p>
+                  <div class="subtitle">
+                      <small class="project-info">(May 2020 - Present)</small>
+                      <small class="project-info"><a href="https://github.com/boosungkim/personal-website">Website Specific Code</a></small>
+                  </div>
+                  <p><i id="one-line-description">My Debian based web server hosted on a Virtual Private Server for websites/web applications.</i></p>
                   <br/>
                   <p><b>Motivation:</b></p>
                   <p>To host my website and various other web applications with the freedom to incorporate scripts for automation, I decided to host my own web server on a Virtual Private Server.</p>
@@ -87,32 +91,34 @@
                   <a href="images/lamp-diagram.jpeg"><img src="images/lamp-diagram.jpeg" alt='menu' width='450'/></a>
                 </div>
               </div>
-              <span>
-                <p>Technology Used</p>
+              <div class="table-section-wrapper">
+                <p><b>Technology Used:</b></p>
                 <div class="table-section">
-                  <ul>
-                    <li>Virtual Private Server</li>
-                    <li>Debian Linux Operating System</li>
-                  </ul>
-                  <ul>
-                    <li>Shell Scripting</li>
-                    <li>Linux Apache MariaDB PHP (LAMP) Stack</li>
-                  </ul>
-                  <ul>
-                    <li>Basic server security (SSH, firewalls)</li>
-                    <li>Certbot</li>
-                  </ul>
+                  <div class="col">
+                    <p>Virtual Private Server</p>
+                    <p>Debian Linux Operating System</p>
+                  </div>
+                  <div class="col">
+                    <p>Shell Scripting</p>
+                    <p>Linux Apache MariaDB PHP (LAMP) Stack</p>
+                  </div>
+                  <div class="col">
+                    <p>Basic server security (SSH, firewalls)</p>
+                    <p>Certbot</p>
+                  </div>
                 </div>
-              </span>
+              </div>
             </div>
             <!-- Personal Linux Environment Set Up -->
             <div class='project-post'>
               <div class='top-section'>
                 <div class=left-section>
                   <h2>Personal Linux Environment Set Up</h2>
-                  <small class="project-info">(Mar 2020 - Present)</small>
-                  <small class="project-info"><a href="https://github.com/boosungkim/dotfiles">GitHub</a></small>
-                  <p><i>My personal Arch Linux workflow ported on my ThinkPad X220.</i></p>
+                  <div id="subtitle">
+                      <small class="project-info">(Mar 2020 - Present)</small>
+                      <small class="project-info"><a href="https://github.com/boosungkim/dotfiles">GitHub</a></small>
+                  </div>
+                  <p><i class="one-line-description">My personal Arch Linux workflow ported on my ThinkPad X220.</i></p>
                   <br/>
                   <p><b>Motivation:</b></p>
                   <p>I want to be able to study the basics of the command line and Linux, customize my workflow extensively, and learn how to troubleshoot and read documents effectively.</p>
@@ -127,19 +133,19 @@
                   <a href="images/thinkpad.png"><img src="images/thinkpad.png" alt='thinkpad with linux' width='450'/></a>
                 </div>
               </div>
-              <span>
-                <p>Technology Used</p>
+              <div class="table-section-wrapper">
+                <p><b>Technology Used:</b></p>
                 <div class="table-section">
-                  <ul>
-                    <li>Arch Linux</li>
-                    <li>Shell Scripting</li>
-                  </ul>
-                  <ul>
-                    <li>Bare Git Repository</li>
-                    <li>UN*X File System Partitioning/Architecture</li>
-                  </ul>
+                  <div class="col">
+                    <p>Arch Linux</p>
+                    <p>Shell Scripting</p>
+                  </div>
+                  <div class="col">
+                    <p>Bare Git Repository</p>
+                    <p>UN*X File System Partitioning/Architecture</p>
+                  </div>
                 </div>
-              </span>
+              </div>
             </div>
             <!-- End of ongoing projects -->
             <h1 class='project-title'>
@@ -152,9 +158,11 @@
                 <div class=left-section>
                   <div>
                   <h2>Reddit Comment Responder</h2>
-                  <small class="project-info">(June 2019)</small>
-                  <small class="project-info"><a href="https://github.com/boosungkim/TatsuBot">GitHub</a></small>
-                  <p><i>A Python Bot that responds to users on the website Reddit</i></p>
+                  <div id="subtitle">
+                      <small class="project-info">(June 2019)</small>
+                      <small class="project-info"><a href="https://github.com/boosungkim/TatsuBot">GitHub</a></small>
+                  </div>
+                  <p><i class="one-line-description">A Python Bot that responds to users on the website Reddit</i></p>
                   <br/>
                   <p><b>Motivation:</b></p>
                   <p>Inspired by similar projects, I decided to use my basic understanding of Python to make a bot that would entertain users on Reddit. </p>
@@ -167,30 +175,30 @@
                   <a href="images/reddit.png"><img src="images/reddit.png" alt='reddit' width='450'/></a>
                 </div>
               </div>
-              <span>
-                <p>Technology Used</p>
+              <div class="table-section-wrapper">
+                <p><b>Technology Used:</b></p>
                 <div class="table-section">
-                  <ul>
-                    <li>Python</li>
-                    <li>Heroku Online Hosting</li>
-                  </ul>
-                  <ul>
-                    <li>Reddit API</li>
-                    <li>PRAW Python Module</li>
-                  </ul>
+                  <div class="col">
+                    <p>Python</p>
+                    <p>Heroku Online Hosting</p>
+                  </div>
+                  <div class="col">
+                    <p>Reddit API</p>
+                    <p>PRAW Python Module</p>
+                  </div>
                 </div>
-              </span>
+              </div>
             </div>
             <!-- End of previous projects -->
             <!--
             <div class='project-post'>
-              <div class='top-section'>
+              <div id='top-section'>
                 <div class=left-section>
                   <div>
                   <h2>TITLE</h2>
                   <small>DATE</small></br>
                   <small><a href="LINK">SITE</a></small>
-                  <p><i>One line description</i></p>
+                  <p><i class="one-line-description">One line description</i></p>
                   <br/>
                   <p><b>Motivation:</b> </p>
                   <br/>
@@ -203,8 +211,8 @@
                   <a href="IMAGE"><img src="IMAGE" alt='NAME' width='450'/></a>
                 </div>
               </div>
-              <span>
-                <p>Technology Used</p>
+              <div class="table-section-wrapper">
+                <p><b>Technology Used</b></p>
                 <div class="table-section">
                   <ul>
                     <li>One</li>
@@ -215,7 +223,7 @@
                     <li>Four</li>
                   </ul>
                 </div>
-              </span>
+              </div>
             </div>
           -->
         </main>

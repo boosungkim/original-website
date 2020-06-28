@@ -15,17 +15,18 @@
             <h1 class='main-title'>
                 <big>Boo Sung's Blog Index</big> <br>
             </h1>
-            <span><a href="blogrolling.php">Rolling view</a></span>
+            <span class="blog-links"><a href="blogrolling.php">Rolling view</a></span>
             <div class="blog-section">
                 <!--Insert new blog here-->
                 <h2>June 2020</h2>
-                <table class='blogindex' style='width:100%'>
-                  <tr>
-                    <td style='width:10%'>2020/06/26</td>
-                    <td style='width:40%'><a href="blogs/june2020/blog-zero-why-i-started-a-blog.php">Blog Zero: Why I started a blog</a></td>
-                    <td style='width:50%'>[Blog]</td>
-                  </tr>
-                </table>
+                <div class='blogindex' style='width:100%'>
+                  <!--Insert new blog of the same month here-->
+                  <div class='row'>
+                    <p class='date'>2020/06/26</p>
+                    <p class='title'><a href="blogs/june2020/blog-zero-why-i-started-a-blog.php">Blog Zero: Why I started a blog</a></p>
+                    <p class='tags'>[Blog]</p>
+                  </div>
+                </div>
             </div>
         </main>
     </div>
