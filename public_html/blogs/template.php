@@ -2,7 +2,7 @@
 <html lang='en'>
     <head>
     <meta charset="utf-8">
-    <title>Test Post - Boo Sung's blog</title>
+    <title>Test Post</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Stylesheet will not work unless the this file exists in a specifc month folder -->
     <?php include "../../scripts/stylesheet.php"; ?>
@@ -23,8 +23,8 @@
               <p>
                 This can also be used as a template.
               </p>
+              <p>by <a href="../index.php">Boo Sung Kim</a></p>
             </div>
-            <p>by <a href="../index.php">Boo Sung Kim</a></p>
         </main>
     </div>
   </body>

@@ -16,11 +16,12 @@
                 <big>Boo Sung's Rolling Blog</big> <br>
             </h1>
             <!--Insert new blog here-->
-            <a href="blog.php">Blog Index</a>
+            <span class="blog-links"><a href="blog.php">Blog Index</a></span>
+            <span id="blog-zero-why-i-started-a-blog"></span>
             <div class="rolling-post">
               <h2>Blog Zero: Why I started a blog</h2>
               <small>
-                2020/06/26 <br>
+                <p class="date">2020/06/26</p>
                 <a href="blogs/june2020/blog-zero-why-i-started-a-blog.php">Link</a>
               </small>
               <p>

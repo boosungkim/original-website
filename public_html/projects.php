@@ -15,11 +15,13 @@
             <h1 class='project-title-top'>
                 <big>Boo Sung's Projects</big>
             </h1>
+            <span id="ongoing"></span>
             <h1 class='project-title'>
                 <small>Ongoing</small>
             </h1>
             <!-- Enter new ongoing projects here -->
             <!-- The Dickinson Menu Bot -->
+            <span id="dickinson-menu-bot"></span>
             <div class='project-post'>
               <div class='top-section'>
                 <div class=left-section>
@@ -29,7 +31,7 @@
                       <small class="project-info">(Sept 2019 - Present)</small>
                       <small class="project-info"><a href="https://github.com/boosungkim/dickinson-menu-bot">GitHub</a></small>
                   </div>
-                  <p><i id="one-line-description">A Java webscraper that extracts and emails the users the daily menu from the Dickinson College Dining website.</i></p>
+                  <p><i>A Java webscraper that extracts and emails the users the daily menu from the Dickinson College Dining website.</i></p>
                   <br/>
                   <p><b>Motivation:</b></p>
                   <p>I overheard my classmates complaining about how the college has no means of sending the dining menu to students directly, so I decided to make a program to solve the inconvenience.</p>
@@ -62,6 +64,7 @@
               </div>
             </div>
             <!-- Personal Web Server System -->
+            <span id="personal-web-server-system"></span>
             <div class='project-post'>
               <div class='top-section'>
                 <div class=left-section>
@@ -71,7 +74,7 @@
                       <small class="project-info">(May 2020 - Present)</small>
                       <small class="project-info"><a href="https://github.com/boosungkim/personal-website">Website Specific Code</a></small>
                   </div>
-                  <p><i id="one-line-description">My Debian based web server hosted on a Virtual Private Server for websites/web applications.</i></p>
+                  <p><i>My Debian based web server hosted on a Virtual Private Server for websites/web applications.</i></p>
                   <br/>
                   <p><b>Motivation:</b></p>
                   <p>To host my website and various other web applications with the freedom to incorporate scripts for automation, I decided to host my own web server on a Virtual Private Server.</p>
@@ -110,15 +113,16 @@
               </div>
             </div>
             <!-- Personal Linux Environment Set Up -->
+            <span id="personal-linux-environment-setup"></span>
             <div class='project-post'>
               <div class='top-section'>
                 <div class=left-section>
-                  <h2>Personal Linux Environment Set Up</h2>
-                  <div id="subtitle">
+                  <h2>Personal Linux Environment Setup</h2>
+                  <div class="subtitle">
                       <small class="project-info">(Mar 2020 - Present)</small>
                       <small class="project-info"><a href="https://github.com/boosungkim/dotfiles">GitHub</a></small>
                   </div>
-                  <p><i class="one-line-description">My personal Arch Linux workflow ported on my ThinkPad X220.</i></p>
+                  <p><i>My personal Arch Linux workflow ported on my ThinkPad X220.</i></p>
                   <br/>
                   <p><b>Motivation:</b></p>
                   <p>I want to be able to study the basics of the command line and Linux, customize my workflow extensively, and learn how to troubleshoot and read documents effectively.</p>
@@ -148,21 +152,23 @@
               </div>
             </div>
             <!-- End of ongoing projects -->
+            <span id="previous"></span>
             <h1 class='project-title'>
               <small>Previous</small>
             </h1>
             <!-- Enter new previous projects here -->
             <!-- Reddit Comment Responder -->
+            <span id="reddit-comment-responder"></span>
             <div class='project-post'>
               <div class='top-section'>
                 <div class=left-section>
                   <div>
                   <h2>Reddit Comment Responder</h2>
-                  <div id="subtitle">
+                  <div class="subtitle">
                       <small class="project-info">(June 2019)</small>
                       <small class="project-info"><a href="https://github.com/boosungkim/TatsuBot">GitHub</a></small>
                   </div>
-                  <p><i class="one-line-description">A Python Bot that responds to users on the website Reddit</i></p>
+                  <p><i>A Python Bot that responds to users on the website Reddit</i></p>
                   <br/>
                   <p><b>Motivation:</b></p>
                   <p>Inspired by similar projects, I decided to use my basic understanding of Python to make a bot that would entertain users on Reddit. </p>
@@ -191,16 +197,17 @@
             </div>
             <!-- End of previous projects -->
             <!--
+            <span id="NAME"></span>
             <div class='project-post'>
-              <div id='top-section'>
+              <div class='top-section'>
                 <div class=left-section>
                   <div>
                   <h2>TITLE</h2>
                   <small>DATE</small></br>
                   <small><a href="LINK">SITE</a></small>
-                  <p><i class="one-line-description">One line description</i></p>
+                  <p><i>One line description</i></p>
                   <br/>
-                  <p><b>Motivation:</b> </p>
+                  <p><b>Motivation:</b></p>
                   <br/>
                   <p><b>Impact:</b></p>
                   <br/>

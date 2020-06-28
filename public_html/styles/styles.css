@@ -117,15 +117,18 @@ header {
 
   .main-nav {
         text-align: right;
-        height: 70px;
-        line-height: 70px;
-        clear: right;
+        height: 40px;
+        line-height: 40px;
+        position: relative;
   }
 
   .menu-list {
       text-align: center;
-      width: 100%;
+      width: 50%;
       display: none;
+      position: absolute;
+      top: 50px;
+      right: 20px;
   }
 
   .main-nav label {
@@ -145,7 +148,8 @@ header {
       clear:right;
       display: block;
       border: 1px solid #EAEAEB;
-      margin: 0;
+      margin: 0px;
+      height: 40px;
       background-color: var(--main-bg-color);
   }
 
@@ -457,6 +461,13 @@ footer {
     padding-bottom: 15px;
 }
 
+@media only screen and (max-width: 1080px) {
+    .post {
+      padding-left: 2em;
+      padding-right: 2em;
+    }
+}
+
 /*-----------------------------------------------*/
 /*---------- rolling-post.php specific ----------*/
 /*-----------------------------------------------*/
@@ -477,6 +488,22 @@ footer {
 .rolling-post p {
     padding-bottom: 15px;
 }
+
+.rolling-post > .date {
+    padding-bottom: 0px;
+}
+
+@media only screen and (max-width: 1080px) {
+    .rolling-post {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+}
+
+@media only screen and (min-width: 1081px) {
+
+}
+
 
 /*-------------------------------------------*/
 /*---------- projects.php specific ----------*/
@@ -553,10 +580,6 @@ footer {
     padding-bottom: 5px;
 }
 
-/* #one-line-description {
-    padding-top: 1em;
-} */
-
 /* Mobile version */
 @media only screen and (max-width: 950px) {
   .top-section {
@@ -592,8 +615,6 @@ footer {
 
 /* Mobile */
 @media only screen and (max-width: 1080px){
-
-}
 
 /* Tablet/Desktop */
 @media only screen and (min-width: 1081px) {

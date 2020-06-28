@@ -29,8 +29,8 @@
               <p>
                 While that may be my main reason, I am already learning far beyond just communication skills: I learnt how to set up a server, the basics of the LAMP stack, and more. More on that on the next blog post about setting up a web server.
               </p>
+              <p>by <a href="../../index.php">Boo Sung Kim</a></p>
             </div>
-            <p>by <a href="../../index.php">Boo Sung Kim</a></p>
         </main>
     </div>
   </body>
