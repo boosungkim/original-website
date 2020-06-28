@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Boo Sung Kim's Homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php include "./scripts/stylesheet.php"; ?>
   </head>
   <body>
@@ -15,6 +16,7 @@
           <big>Boo Sung Kim</big> <br>
           <small>Math student by day, CS student by night</small>
         </h1>
+        <div class="links-wrapper">
         <div class='links'>
           <div class='professional'>
             <p>Professional:</p>
@@ -41,11 +43,12 @@
             </a>
           </div>
         </div>
+      </div>
         <div class='main-section'>
-            <div class='left'>
+            <div class='img-section'>
                 <img src="images/profile.png" alt='Profile picture'>
             </div>
-            <div class='right'>
+            <div class='text-section' id="about-me">
                 <h2>About Me</h2>
                 <p>
                     Hello, my name is Boo Sung and I am from South Korea. I became passionate about math when I was 15 and began programming in early 2019. Now, I am a sophomore double majoring in Mathematics and Computer Science.
@@ -61,8 +64,8 @@
                 </p>
             </div>
         </div>
-        <div class='main-section'>
-            <div class='left'>
+        <div class='main-section' id="dickinson">
+            <div class='text-section'>
                 <h2>Studying and working at Dickinson College</h2>
                 <p>
                     During my freshman year at college, I worked as a Phonathon student caller (meaning I solicited donations for my college) and a <a href="https://www.dickinson.edu/news/article/3634/quantifying_success">Quantitative Reasoning Associate</a> for MATH 170 Single Variable Calculus.
@@ -71,15 +74,15 @@
                     Starting next semester during my sophomore year, I will work as a Resident Advisor (provided students will return to campus) and a Teaching Assistant for MATH 171 Multivariable Calculus, Math Help Room, and CS Help Room.
                 </p>
             </div>
-            <div class='right'>
+            <div class='img-section'>
                 <img src="images/dickinson.png" alt='Dickinson College'>
             </div>
         </div>
-        <div class='main-section'>
-          <div class='left'>
+        <div class='main-section' id="linux">
+          <div class='img-section'>
             <img src="images/thinkpad.png" alt='My Arch Linux setup'>
           </div>
-          <div class='right'>
+          <div class='text-section'>
             <h2>My Linux passion</h2>
             <p>
               I was first introduced to Linux late 2019 and decided to try it out for myself early 2020. My first and current setup is Arch Linux on a ThinkPad X220.
@@ -92,8 +95,8 @@
             </p>
           </div>
         </div>
-        <div class='main-section'>
-            <div class='left'>
+        <div class='main-section' id="c2d">
+            <div class='text-section'>
               <h2>Converge2Diverge</h2>
               <p>
                 <a href="https://www.youtube.com/converge2diverge">Converge2Diverge</a> (C2D) is a YouTube channel mainly about Mathematics, though I have started uploading Computer Science/Programming content recently.
@@ -109,28 +112,28 @@
                 </ul>
               </p>
             </div>
-            <div class='right'>
-              <img src="images/c2d.png" alt='Converge2Diverge' width="400">
+            <div class='img-section'>
+              <img src="images/c2d.png" alt='Converge2Diverge'>
             </div>
         </div>
         <div class='recent-blogs'>
             <h2>Recent Blogs</h2>
-            <table class='blogindex' style='width:100%'>
-                  <tr>
-                    <td style='width:10%'>2020/06/26</td>
-                    <td style='width:40%'><a href="blogs/june2020/blog-zero-why-i-started-a-blog.php">Blog Zero: Why I started a blog</a></td>
-                    <td style='width:50%'>[Blog]</td>
-                  </tr>
-                  <tr>
-                    <td style='width:10%'></td>
-                    <td style='width:40%'><a href=""></a></td>
-                    <td style='width:50%'></td>
-                  </tr>
-                  <tr>
-                    <td style='width:10%'></td>
-                    <td style='width:40%'><a href=""></a></td>
-                    <td style='width:50%'></td>
-                  </tr>
+            <div class='blogindex' style='width:100%'>
+                  <div class='row'>
+                    <p class='date'>2020/06/26</p>
+                    <p class='title'><a href="blogs/june2020/blog-zero-why-i-started-a-blog.php">Blog Zero: Why I started a blog</a></p>
+                    <p class='tags'>[Blog]</p>
+                  </div>
+                  <div class='row'>
+                    <span style='width:10%'></span>
+                    <span style='width:40%'><a href=""></a></span>
+                    <span style='width:50%'></span>
+                  </div>
+                  <div class='row'>
+                    <span style='width:10%'></span>
+                    <span style='width:40%'><a href=""></a></span>
+                    <span style='width:50%'></span>
+                  </div>
             </table>
         </div>
       </main>
