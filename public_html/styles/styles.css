@@ -339,7 +339,7 @@ a {
 }
 
 /* Mobile version */
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 920px) {
   .main-section {
       flex-direction: column;
       padding-bottom: 1em;
@@ -581,7 +581,7 @@ footer {
 }
 
 /* Mobile version */
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 920px) {
   .top-section {
       flex-direction: column-reverse;
   }
