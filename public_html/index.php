@@ -15,6 +15,7 @@
         <h1 class='main-title'>
           <big>Boo Sung Kim</big> <br>
           <small>Math student by day, CS student by night</small>
+          <small><a href="rss.xml">RSS</a></small>
         </h1>
         <div class="links-wrapper">
         <div class='links'>
