@@ -124,11 +124,16 @@ header {
 
   .menu-list {
       text-align: center;
-      width: 70%;
+      width: 200px;
       display: none;
       position: absolute;
       top: 50px;
       right: 20px;
+  }
+
+  .menu-list li {
+    text-align: right;
+    padding-right: 0.5em;
   }
 
   .main-nav label {
@@ -147,10 +152,10 @@ header {
   .menu-list li {
       clear:right;
       display: block;
-      border: 1px solid #EAEAEB;
+      /* border: 1px solid #EAEAEB; */
       margin: 0px;
       height: 40px;
-      background-color: var(--main-bg-color);
+      background-color: #17202A;
   }
 
   #toggle:checked + .menu-list {
@@ -176,12 +181,12 @@ header {
       justify-content: center;
   }
 
-  .main-nav a {
+  .menu-list li {
       display: inline;
       padding-left: 5em;
   }
 
-  .main-nav a:first-of-type {
+  .menu-list li:first-of-type {
       display: inline;
       padding-left: 0em;
   }

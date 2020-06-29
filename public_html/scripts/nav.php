@@ -2,10 +2,10 @@
   <label for="toggle">&#9776;</label>
   <input type="checkbox" id="toggle"/>
   <ul class="menu-list">
-    <a href="/index.php"><li>Home</li></a>
-    <a href='/blog.php'><li>Blog</li></a>
-    <a href='/projects.php'><li>Projects</li></a>
-    <a href='/resume2.pdf'><li>Resume</li></a>
-    <a href='/contactme.php'><li>Contact Me</li></a>
+    <li><a href="/index.php">Home</a></li>
+    <li><a href='/blog.php'>Blog</a></li>
+    <li><a href='/projects.php'>Projects</a></li>
+    <li><a href='/resume2.pdf'>Resume</a></li>
+    <li><a href='/contactme.php'>Contact Me</a></li>
   </ul>
 </nav>
