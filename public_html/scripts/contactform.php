@@ -8,6 +8,9 @@ if (isset($_POST['submit'])) {
   // Direct Variables
   $mailTo = "boosungk@gmail.com";
   // Getting form data variables
+
+  if(!empty($_POST['website'])) die();
+  
   // Message
   if (empty($_POST['message'])) {
     $errorMsg = "Message is empty";
