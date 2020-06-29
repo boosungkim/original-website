@@ -15,32 +15,34 @@
         <h1 class='main-title'>
           <big>Boo Sung Kim</big> <br>
           <small>Math student by day, CS student by night</small>
-          <small><a href="rss.xml">RSS</a></small>
         </h1>
         <div class="links-wrapper">
         <div class='links'>
           <div class='professional'>
             <p>Professional:</p>
             <a href="mailto:kimbo@dickinson.edu">
-              <img src="images/logos/pixabay-email.png" alt='Email' width="23"/>
+              <img src="images/logos/iconfinder-email.svg" alt='Email' width="25"/>
             </a>
             <a href="https://www.linkedin.com/in/boosungk/">
-              <img src="images/logos/vecteezy-linkedin.svg" alt='LinkedIn' width="23"/>
+              <img src="images/logos/iconfinder-linkedin.svg" alt='LinkedIn' width="26"/>
             </a>
           </div>
           <div class='software'>
             <p>Software:</p>
             <a href="https://github.com/boosungkim">
-              <img src="images/logos/vecteezy-github.svg" alt='GitHub' width="23"/>
+              <img src="images/logos/iconfinder-github.svg" alt='GitHub' width="26"/>
             </a>
           </div>
           <div class='social'>
             <p>Social:</p>
+            <a href="https://boosungkim.com/rss.xml">
+              <img src="images/logos/iconfinder-rss.svg" alt='rss' width="25"/>
+            </a>
             <a href="https://www.youtube.com/converge2diverge">
-              <img src="images/logos/vecteezy-youtube.svg" alt='YouTube' width="23"/>
+              <img src="images/logos/iconfinder-youtube.svg" alt='YouTube' width="25"/>
             </a>
             <a href="https://twitter.com/bytesofboosung">
-              <img src="images/logos/vecteezy-twitter.svg" alt='Twitter' width="23"/>
+              <img src="images/logos/iconfinder-twitter.svg" alt='Twitter' width="25"/>
             </a>
           </div>
         </div>
@@ -141,6 +143,5 @@
     </div>
   </body>
   <footer>
-      <a href="https://www.vecteezy.com/free-vector/github">Github Vectors by Vecteezy</a>
   </footer>
 </html>

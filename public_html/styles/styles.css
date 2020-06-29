@@ -613,19 +613,11 @@ footer {
   }
 }
 
-/* Mobile */
-@media only screen and (max-width: 1080px){
-
-/* Tablet/Desktop */
-@media only screen and (min-width: 1081px) {
-
-}
-
 /*--------------------------------------------*/
 /*---------- contactme.php specific ----------*/
 /*--------------------------------------------*/
 
-.contact-area p{
+.contact-area p {
   text-align: center;
   padding-top: 1em;
   padding-bottom: 2em;
