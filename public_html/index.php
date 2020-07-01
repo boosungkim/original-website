@@ -127,16 +127,16 @@
                     <p class='title'><a href="blogs/june2020/blog-zero-why-i-started-a-blog.php">Blog Zero: Why I started a blog</a></p>
                     <p class='tags'>[Blog]</p>
                   </div>
-                  <div class='row'>
+                  <!-- <div class='row'>
                     <p class='date'></p>
                     <p class='title'><a href=""></a></p>
                     <p class='tags'></p>
-                  </div>
-                  <div class='row'>
+                  </div> -->
+                  <!-- <div class='row'>
                     <p class='date'></p>
                     <p class='title'><a href=""></a></p>
                     <p class='tags'></p>
-                  </div>
+                  </div> -->
             </div>
         </div>
         <?php include "./scripts/emailform.php"; ?>

@@ -29,11 +29,6 @@
 }
 
 @font-face {
-  font-family: OpenSans;
-  src: url("/fonts/Open_Sans/OpenSans-Regular.ttf");
-}
-
-@font-face {
   font-family: Roboto;
   src: url("/fonts/Roboto/Roboto-Regular.ttf");
 }
@@ -53,10 +48,10 @@ h1 > big{
 }
 
 h1 > small {
-  font-family: OpenSans;
+  font-family: Roboto;
 }
 
-i, small{
+i, small {
   font-family: Poly;
 }
 
@@ -515,7 +510,6 @@ footer {
 /*---------- blog.php specific ----------*/
 /*---------------------------------------*/
 .blog-links {
-    padding-left: 0em;
     text-align: center;
     padding: 0 0;
     display: flex;
@@ -525,6 +519,10 @@ footer {
 .blog-links a {
     text-decoration: none;
     padding-left: 15px;
+}
+
+.blog-links a:first-of-type {
+    padding-left: 0px;
 }
 
 .blog-links a:hover img {
