@@ -19,7 +19,7 @@
             <h1 class='project-title'>
                 <small>Ongoing</small>
             </h1>
-            <!-- Enter new ongoing projects here -->
+            <!--                        Enter new ongoing projects here                   -->
             <!-- The Dickinson Menu Bot -->
             <span id="dickinson-menu-bot"></span>
             <div class='project-post'>
@@ -59,55 +59,6 @@
                   <div class="col">
                     <p>Python</p>
                     <p>Raspberry Pi</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- Personal Web Server System -->
-            <span id="personal-web-server-system"></span>
-            <div class='project-post'>
-              <div class='top-section'>
-                <div class=left-section>
-                  <div>
-                  <h2>Personal Web Server System</h2>
-                  <div class="subtitle">
-                      <small class="project-info">(May 2020 - Present)</small>
-                      <small class="project-info"><a href="https://github.com/boosungkim/personal-website">Website Specific Code</a></small>
-                  </div>
-                  <p><i>My Debian based web server hosted on a Virtual Private Server for websites/web applications.</i></p>
-                  <br/>
-                  <p><b>Motivation:</b></p>
-                  <p>To host my website and various other web applications with the freedom to incorporate scripts for automation, I decided to host my own web server on a Virtual Private Server.</p>
-                  <br/>
-                  <p><b>Impact:</b></p>
-                  <p>So far, I have been able to learn the process of setting up a Debian Linux server, server security measures with SSH and a firewall, X.509 HTTPS certificate for TLS encryption, and an SMTP mail server.</p>
-                  <br/>
-                  <p><b>In development:</b></p>
-                  <p>Implementing an email subscription system using PHP and MariaDB.</p>
-                  <p>Adding media queries for mobile website usage.</p>
-                  <p></p>
-                  <p></p>
-                  </div>
-                  <br/>
-                </div>
-                <div class='right-section'>
-                  <a href="images/lamp-diagram.jpeg"><img src="images/lamp-diagram.jpeg" alt='menu' width='450'/></a>
-                </div>
-              </div>
-              <div class="table-section-wrapper">
-                <p><b>Technology Used:</b></p>
-                <div class="table-section">
-                  <div class="col">
-                    <p>Virtual Private Server</p>
-                    <p>Debian Linux Operating System</p>
-                  </div>
-                  <div class="col">
-                    <p>Shell Scripting</p>
-                    <p>Linux Apache MariaDB PHP (LAMP) Stack</p>
-                  </div>
-                  <div class="col">
-                    <p>Basic server security (SSH, firewalls)</p>
-                    <p>Certbot</p>
                   </div>
                 </div>
               </div>
@@ -156,7 +107,54 @@
             <h1 class='project-title'>
               <small>Completed</small>
             </h1>
-            <!-- Enter new previous projects here -->
+            <!--                        Enter new completed projects here                   -->
+            <!-- Personal Web Server System -->
+            <span id="personal-web-server-system"></span>
+            <div class='project-post'>
+              <div class='top-section'>
+                <div class=left-section>
+                  <div>
+                  <h2>Personal Web Server System</h2>
+                  <div class="subtitle">
+                      <small class="project-info">(May 2020 - July 2020)</small>
+                      <small class="project-info"><a href="https://github.com/boosungkim/personal-website">Website Specific Code</a></small>
+                  </div>
+                  <p><i>My Debian based web server hosted on a Virtual Private Server for websites/web applications.</i></p>
+                  <br/>
+                  <p><b>Motivation:</b></p>
+                  <p>To host my website and various other web applications with the freedom to incorporate scripts for automation, I decided to create my own web server on a Virtual Private Server.</p>
+                  <br/>
+                  <p><b>Impact:</b></p>
+                  <p>- A deeper understanding of SQL databases, which I will incorporate into the Dickinson Menu Bot project.</p>
+                  <p>- Started accumulating users in the email newsletter.</p>
+                  <br/>
+                  <!-- <p><b>Features:</b></p>
+                  <p></p> -->
+                  </div>
+                  <br/>
+                </div>
+                <div class='right-section'>
+                  <a href="images/lamp-diagram.jpeg"><img src="images/lamp-diagram.jpeg" alt='menu' width='450'/></a>
+                </div>
+              </div>
+              <div class="table-section-wrapper">
+                <p><b>Technology Used:</b></p>
+                <div class="table-section">
+                  <div class="col">
+                    <p>Virtual Private Server</p>
+                    <p>Debian Linux Operating System</p>
+                  </div>
+                  <div class="col">
+                    <p>Shell Scripting</p>
+                    <p>Linux Apache MariaDB PHP (LAMP) Stack</p>
+                  </div>
+                  <div class="col">
+                    <p>Basic server security (SSH, firewalls)</p>
+                    <p>Certbot</p>
+                  </div>
+                </div>
+              </div>
+            </div>
             <!-- Reddit Comment Responder -->
             <span id="reddit-comment-responder"></span>
             <div class='project-post'>

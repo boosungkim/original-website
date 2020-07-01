@@ -102,17 +102,18 @@
             <div class='text-section'>
               <h2>Converge2Diverge</h2>
               <p>
-                <a href="https://www.youtube.com/converge2diverge">Converge2Diverge</a> (C2D) is a YouTube channel mainly about Mathematics, though I have started uploading Computer Science/Programming content recently.
+                <a href="https://www.youtube.com/converge2diverge">Converge2Diverge</a> (C2D) is a YouTube channel mainly about Mathematics and Computer Science.
               </p>
               <p>
                 The logo, designed by my friend <a href="https://www.instagram.com/hi_sseungchol/">Andy Lee</a>, is the Greek letter Phi (φ), which is the symbol for the Golden Ratio.
               </p>
               <p>
-                The name "Converge2Diverge" stems from a Math high school club I founded back in 2017: Converge to Diverge. I chose the name for two reasons:
-                <ul>
-                  <li> 1) "converge" and "diverge" are math terms and</li>
-                  <li> 2) I wanted the club to be a place where people can "converge" to "diverge" their ideas.</li>
-                </ul>
+                The name "Converge2Diverge" stems from a Math high school club, Converge to Diverge. I chose the name because I wanted the club to be a place where people can "converge" to "diverge" their ideas.
+              </p>
+              <p>
+                <b>Videos in progress:</b><br>
+                - The ThinkPad Experience (and Arch Linux btw!): Post-Production<br>
+                - Reviewing Multivariable Calculus but in Minecraft: Pre-production
               </p>
             </div>
             <div class='img-section'>
