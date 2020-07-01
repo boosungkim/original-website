@@ -120,7 +120,7 @@
             </div>
         </div>
         <div class='recent-blogs'>
-            <h2>Recent Blogs</h2>
+            <h2>Recent blogs</h2>
             <div class='blogindex' style='width:100%'>
                   <div class='row'>
                     <p class='date'>2020/06/26</p>
@@ -137,8 +137,9 @@
                     <p class='title'><a href=""></a></p>
                     <p class='tags'></p>
                   </div>
-            </table>
+            </div>
         </div>
+        <?php include "./scripts/emailform.php"; ?>
       </main>
     </div>
   </body>

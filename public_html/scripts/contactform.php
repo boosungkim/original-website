@@ -10,7 +10,7 @@ if (isset($_POST['submit'])) {
   // Getting form data variables
 
   if(!empty($_POST['website'])) die();
-  
+
   // Message
   if (empty($_POST['message'])) {
     $errorMsg = "Message is empty";
@@ -40,14 +40,15 @@ if (isset($_POST['submit'])) {
   }
 
   // Some data organization
-  $headers = "From: ".$mailFrom;
-  $txt = "You have received an email from ".$senderName.".\n\n".$message;
+  // $headers = "To: ".$mailTo."\r\n";
+  $headers = "From: ".$senderName." <".$mailFrom.">";
+  $txt = "You have received an email from ".$senderName." (".$mailFrom.").\n\n".$message;
 
   if (strlen($errorMsg) != 0) {
     header("Location: ../contactme.php?x=$errorMsg");
     // $_SESSION['Error'] = "You left one or more of the required fields.";
   } else {
-    mail($mailTo, $subject, $txt, $headers);
+    mail($mailTo, $subject, $txt, $headers, "-f boosungk@gmail.com");
     header("Location: ../index.php?mailsent");
   }
 }

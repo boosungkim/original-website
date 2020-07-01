@@ -15,7 +15,13 @@
             <h1 class='main-title'>
                 <big>Boo Sung's Blog Index</big> <br>
             </h1>
-            <span class="blog-links"><a href="blogrolling.php">Rolling view</a></span>
+            <span class="blog-links">
+                <a href="blogrolling.php">Rolling View</a>
+                <a href="https://boosungkim.com/rss.xml">
+                  <img src="images/logos/iconfinder-rss.svg" alt='rss' width="25"/>
+                </a>
+                <a href="https://boosungkim.com/lists/?p=subscribe&id=1">Subscribe!</a>
+            </span>
             <div class="blog-section">
                 <!--Insert new blog here-->
                 <h2>June 2020</h2>
@@ -28,6 +34,7 @@
                   </div>
                 </div>
             </div>
+            <?php include "./scripts/emailform.php"; ?>
         </main>
     </div>
   </body>

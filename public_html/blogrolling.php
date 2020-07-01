@@ -16,7 +16,13 @@
                 <big>Boo Sung's Rolling Blog</big> <br>
             </h1>
             <!--Insert new blog here-->
-            <span class="blog-links"><a href="blog.php">Blog Index</a></span>
+            <span class="blog-links">
+                <a href="blog.php">Blog Index</a>
+                <a href="https://boosungkim.com/rss.xml">
+                  <img src="images/logos/iconfinder-rss.svg" alt='rss' width="25"/>
+                </a>
+                <a href="https://boosungkim.com/lists/?p=subscribe&id=1">Subscribe!</a>
+            </span>
             <span id="blog-zero-why-i-started-a-blog"></span>
             <div class="rolling-post">
               <h2>Blog Zero: Why I started a blog</h2>
@@ -36,7 +42,12 @@
               <p>
                 While that may be my main reason, I am already learning far beyond just communication skills: I learnt how to set up a server, the basics of the LAMP stack, and more. More on that on the next blog post about setting up a web server.
               </p>
+              <small>
+                  <a href="https://boosungkim.com/rss.xml">RSS</a><br>
+                  <a href="https://boosungkim.com/lists/?p=subscribe&id=1">Subscribe!</a>
+              </small>
             </div>
+            <?php include "./scripts/emailform.php"; ?>
         </main>
     </div>
   </body>

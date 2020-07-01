@@ -372,9 +372,9 @@ a {
 
 }
 
-/*---------- Recent blog sections ----------*/
+/*---------- Recent blog and email subscription sections ----------*/
 
-.recent-blogs {
+.recent-blogs, .email-subscription-wrapper {
     max-width: 950px;
     display: flex;
     flex-direction: column;
@@ -384,6 +384,50 @@ a {
     padding-bottom: 1em;
     padding-left: 0.5em;
     padding-right: 0.5em;
+}
+
+.email-subscription {
+    display: flex;
+    flex-direction: row;
+}
+
+.email-subscription > .text-section {
+    width: 50%;
+}
+
+.required p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.attributeinput input {
+    border-radius: 10px;
+    height: 40px;
+    border: solid white;
+    width: 200px;
+}
+
+.email-button {
+    background-color: var(--main-title-big);
+    border: solid var(--main-title-big);
+    height: 24px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 200px;
+}
+
+.form-section {
+    padding-top: 7px;
+    margin: auto;
+    margin-right: 2em;
+}
+
+.form-section form {
+  margin: auto;
+}
+
+.blogindex {
+  padding-top: 10px;
 }
 
 .blogindex > .row {
@@ -403,8 +447,37 @@ a {
     width:35%;
 }
 
+.text-section p {
+    margin-bottom: 15px;
+}
+
+.text-section p:first-of-type {
+    margin-top: 10px;
+}
+
+.text-section p:last-of-type {
+    margin-bottom: 0px;
+}
+
+/* @media only screen and (max-width: 420px) {
+
+} */
+
 /* Medium mobile version */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 750px) {
+    .form-section {
+      margin: auto;
+    }
+
+    .email-subscription > .text-section {
+        width: 100%;
+    }
+
+    .email-subscription {
+        display: flex;
+        flex-direction: column;
+    }
+
     .blogindex > .row {
         display: flex;
         flex-direction: column;
@@ -442,9 +515,29 @@ footer {
 /*---------- blog.php specific ----------*/
 /*---------------------------------------*/
 .blog-links {
-    padding-left: 1em;
+    padding-left: 0em;
+    text-align: center;
+    padding: 0 0;
+    display: flex;
+    justify-content: center;
 }
+
+.blog-links a {
+    text-decoration: none;
+    padding-left: 15px;
+}
+
+.blog-links a:hover img {
+    transform: scale(1.7, 1.7);
+}
+
+.professional, .software, .social{
+    display: flex;
+    align-items: center;
+}
+
 .blog-section {
+  max-width: 950px;
     padding-top: 20px;
     margin: 20px;
     padding-top: 1em;
@@ -503,10 +596,6 @@ footer {
         margin-left: 1em;
         margin-right: 1em;
     }
-}
-
-@media only screen and (min-width: 1081px) {
-
 }
 
 
@@ -643,6 +732,7 @@ footer {
   resize: vertical;
   margin-top: 6px;
   margin-bottom: 16px;
+  border: none;
 }
 
 .contact-form textarea {
