@@ -152,9 +152,9 @@
               </div>
             </div>
             <!-- End of ongoing projects -->
-            <span id="previous"></span>
+            <span id="completed"></span>
             <h1 class='project-title'>
-              <small>Previous</small>
+              <small>Completed</small>
             </h1>
             <!-- Enter new previous projects here -->
             <!-- Reddit Comment Responder -->
