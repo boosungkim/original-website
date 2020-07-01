@@ -1,1 +1,1 @@
-<link rel="stylesheet" href="/styles/styles.css?version=2.1.1">
+<link rel="stylesheet" href="/styles/styles.css?version=2.3.0">
