@@ -23,7 +23,18 @@
                 <a href="https://boosungkim.com/lists/?p=subscribe&id=1">Subscribe!</a>
             </span>
             <div class="blog-section">
-                <!--Insert new blog here-->
+              <!--Insert new blog here-->
+              <h2>July 2020</h2>
+              <div class='blogindex' style='width:100%'>
+                <!--Insert new blog of the same month here-->
+                <div class='row'>
+                  <p class='date'>2020/07/03</p>
+                  <p class='title'><a href="blogs/july2020/sticky-business-of-setting-up-a-web-server.php">Sticky business of setting up a web server</a></p>
+                  <p class='tags'>[Documentation][Project]</p>
+                </div>
+              </div>
+            </div>
+            <div class="blog-section">
                 <h2>June 2020</h2>
                 <div class='blogindex' style='width:100%'>
                   <!--Insert new blog of the same month here-->

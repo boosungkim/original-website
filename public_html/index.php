@@ -52,7 +52,7 @@
                 <img src="images/profile.png" alt='Profile picture'>
             </div>
             <div class='text-section' id="about-me">
-                <h2>About Me</h2>
+                <h2>About me</h2>
                 <p>
                     Hello, my name is Boo Sung and I am from South Korea. I became passionate about math when I was 15 and began programming in early 2019. Now, I am a sophomore double majoring in Mathematics and Computer Science.
                 </p>
@@ -63,7 +63,7 @@
                     I also have a YouTube channel, <a href="https://www.youtube.com/converge2diverge">Converge2Diverge</a>, where I make videos about Math and Computer Science.
                 </p>
                 <p>
-                    I am still exploring my different interests, but I currently have a strong passion in Linux, Machine Learning, and Open Source projects.
+                    I am still exploring different fields, but I currently interested in Software Engineering, Linux, Machine Learning, and Open Source projects.
                 </p>
             </div>
         </div>
@@ -81,10 +81,24 @@
                 <img src="images/dickinson.png" alt='Dickinson College'>
             </div>
         </div>
-        <div class='main-section' id="linux">
+        <div class='main-section' id="software-engineering">
           <div class='img-section'>
-            <img src="images/thinkpad.png" alt='My Arch Linux setup'>
+            <img src="images/software-engineering.JPG" alt='Software Engineering'>
           </div>
+          <div class='text-section'>
+            <h2>My software engineering passion</h2>
+            <p>
+              To me, the best part about software engineering is having the ability to make softwares that can assist people.
+            </p>
+            <p>
+              When I first started programming, I created miscellaneous projects here and there. But while coding my first practical project, the <a href="projects.php#dickinson-menu-bot">Dickinson Menu Bot</a>, I felt a sense of accomplishment from creating a piece of software that actually helped people.
+            </p>
+            <p>
+              Again, I am still exploring the diverse fields of programming, but I still love the idea of creating a product that can impact people positively.
+            </p>
+          </div>
+        </div>
+        <div class='main-section' id="linux">
           <div class='text-section'>
             <h2>My Linux passion</h2>
             <p>
@@ -97,8 +111,14 @@
               My end goals are to use Linux on my ThinkPad as my daily driver and to get more involved with the Open Source community behind Linux and its many packages.
             </p>
           </div>
+          <div class='img-section'>
+            <img src="images/thinkpad.png" alt='My Arch Linux setup'>
+          </div>
         </div>
         <div class='main-section' id="c2d">
+            <div class='img-section'>
+              <img src="images/c2d.png" alt='Converge2Diverge'>
+            </div>
             <div class='text-section'>
               <h2>Converge2Diverge</h2>
               <p>
@@ -116,23 +136,20 @@
                 - Reviewing Multivariable Calculus but in Minecraft: Pre-production
               </p>
             </div>
-            <div class='img-section'>
-              <img src="images/c2d.png" alt='Converge2Diverge'>
-            </div>
         </div>
         <div class='recent-blogs'>
             <h2>Recent blogs</h2>
             <div class='blogindex' style='width:100%'>
                   <div class='row'>
+                    <p class='date'>2020/07/03</p>
+                    <p class='title'><a href="blogs/july2020/sticky-business-of-setting-up-a-web-server.php">Sticky business of setting up a web server</a></p>
+                    <p class='tags'>[Documentation][Project]</p>
+                  </div>
+                  <div class='row'>
                     <p class='date'>2020/06/26</p>
                     <p class='title'><a href="blogs/june2020/blog-zero-why-i-started-a-blog.php">Blog Zero: Why I started a blog</a></p>
                     <p class='tags'>[Blog]</p>
                   </div>
-                  <!-- <div class='row'>
-                    <p class='date'></p>
-                    <p class='title'><a href=""></a></p>
-                    <p class='tags'></p>
-                  </div> -->
                   <!-- <div class='row'>
                     <p class='date'></p>
                     <p class='title'><a href=""></a></p>

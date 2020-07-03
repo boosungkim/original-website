@@ -117,7 +117,8 @@
                   <h2>Personal Web Server System</h2>
                   <div class="subtitle">
                       <small class="project-info">(May 2020 - July 2020)</small>
-                      <small class="project-info"><a href="https://github.com/boosungkim/personal-website">Website Specific Code</a></small>
+                      <small class="project-info"><a href="https://github.com/boosungkim/personal-website">Front End</a> | </small>
+                      <small class="project-info"><a href="/blogs/july2020/sticky-business-of-setting-up-a-web-server.php">Blog Post</a></small>
                   </div>
                   <p><i>My Debian based web server hosted on a Virtual Private Server for websites/web applications.</i></p>
                   <br/>

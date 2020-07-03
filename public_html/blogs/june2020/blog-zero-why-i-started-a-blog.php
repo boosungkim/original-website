@@ -2,7 +2,7 @@
 <html lang='en'>
     <head>
     <meta charset="utf-8">
-    <title>Test Post - Boo Sung's blog</title>
+    <title>Blog Zero: Why I started a blog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php include "../../scripts/stylesheet.php"; ?>
   </head>
