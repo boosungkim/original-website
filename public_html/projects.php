@@ -63,45 +63,6 @@
                 </div>
               </div>
             </div>
-            <!-- Personal Linux Environment Set Up -->
-            <span id="personal-linux-environment-setup"></span>
-            <div class='project-post'>
-              <div class='top-section'>
-                <div class=left-section>
-                  <h2>Personal Linux Environment Setup</h2>
-                  <div class="subtitle">
-                      <small class="project-info">(Mar 2020 - Present)</small>
-                      <small class="project-info"><a href="https://github.com/boosungkim/dotfiles">GitHub</a></small>
-                  </div>
-                  <p><i>My personal Arch Linux workflow ported on my ThinkPad X220.</i></p>
-                  <br/>
-                  <p><b>Motivation:</b></p>
-                  <p>I want to be able to study the basics of the command line and Linux, customize my workflow extensively, and learn how to troubleshoot and read documents effectively.</p>
-                  <br/>
-                  <p><b>Impact:</b></p>
-                  <p>I am now capable of basic usage of the Linux command line, troubleshooting, and technical documentations.</p>
-                  <br/>
-                  <p><b>In development:</b></p>
-                  <p>Setting up a wpa_supplicant file to allow the Linux OS to connect to the college's WPA2 Enterprise WiFi.</p>
-                </div>
-                <div class='right-section'>
-                  <a href="images/thinkpad.png"><img src="images/thinkpad.png" alt='thinkpad with linux' width='450'/></a>
-                </div>
-              </div>
-              <div class="table-section-wrapper">
-                <p><b>Technology Used:</b></p>
-                <div class="table-section">
-                  <div class="col">
-                    <p>Arch Linux</p>
-                    <p>Shell Scripting</p>
-                  </div>
-                  <div class="col">
-                    <p>Bare Git Repository</p>
-                    <p>UN*X File System Partitioning/Architecture</p>
-                  </div>
-                </div>
-              </div>
-            </div>
             <!-- End of ongoing projects -->
             <span id="completed"></span>
             <h1 class='project-title'>
@@ -152,6 +113,42 @@
                   <div class="col">
                     <p>Basic server security (SSH, firewalls)</p>
                     <p>Certbot</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Personal Linux Environment Set Up -->
+            <span id="personal-linux-environment-setup"></span>
+            <div class='project-post'>
+              <div class='top-section'>
+                <div class=left-section>
+                  <h2>Personal Linux Environment Setup</h2>
+                  <div class="subtitle">
+                      <small class="project-info">(Mar 2020 - July 2020)</small>
+                      <small class="project-info"><a href="https://github.com/boosungkim/dotfiles">Dotfiles</a></small>
+                  </div>
+                  <p><i>My personal Arch Linux workflow ported on my ThinkPad X220.</i></p>
+                  <br/>
+                  <p><b>Motivation:</b></p>
+                  <p>I want to be able to study the basics of the command line and Linux, customize my workflow extensively, and learn how to troubleshoot and read documents effectively.</p>
+                  <br/>
+                  <p><b>Impact:</b></p>
+                  <p>I am now capable of basic usage of the Linux command line, troubleshooting, and technical documentations.</p>
+                </div>
+                <div class='right-section'>
+                  <a href="images/thinkpad.png"><img src="images/thinkpad.png" alt='thinkpad with linux' width='450'/></a>
+                </div>
+              </div>
+              <div class="table-section-wrapper">
+                <p><b>Technology Used:</b></p>
+                <div class="table-section">
+                  <div class="col">
+                    <p>Arch Linux</p>
+                    <p>Shell Scripting</p>
+                  </div>
+                  <div class="col">
+                    <p>Bare Git Repository</p>
+                    <p>UN*X File System Partitioning/Architecture</p>
                   </div>
                 </div>
               </div>
