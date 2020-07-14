@@ -63,7 +63,7 @@
                     I also have a YouTube channel, <a href="https://www.youtube.com/converge2diverge">Converge2Diverge</a>, where I make videos about Math and Computer Science.
                 </p>
                 <p>
-                    I am still exploring different fields, but I currently interested in Software Engineering, Linux, Machine Learning, and Open Source projects.
+                    I am still exploring different fields, but I am currently interested in Software Engineering, Linux, Machine Learning, and Open Source projects.
                 </p>
             </div>
         </div>
