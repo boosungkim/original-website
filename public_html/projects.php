@@ -20,28 +20,69 @@
                 <small>Ongoing</small>
             </h1>
             <!--                        Enter new ongoing projects here                   -->
-            <!-- The Dickinson Menu Bot -->
-            <span id="dickinson-menu-bot"></span>
+            <!-- The 4th Dimensional Snake AI -->
+            <span id="4d-snake-ai"></span>
             <div class='project-post'>
+              <div class='top-section'>
+                <div class=left-section>
+                  <div>
+                  <h2>The 4th Dimentional Snake AI</h2>
+                  <div class="subtitle">
+                      <small class="project-info">(July 2020 - Present)</small>
+                  </div>
+                  <p><i>A Machine Learning algorithm that can solve the 4D version of the Snake game.</i></p>
+                  <br/>
+                  <p><b>Motivation:</b></p>
+                  <p>For my first Machine Learning related project, I wanted to go back to another open source project I had found a few years prior that I loved: <a href="https://github.com/Pella86/Snake4d">Pella86's 4D Snake game</a>. I made a <a href="https://www.youtube.com/watch?v=If95SARkjRs">video</a> covering this game in 2018.</p>
+                  <br/>
+                  <p><b>In development:</b></p>
+                  <p>- Learning the basics of Machine Learning using <u>Hands on Machine Learning with Scikit-Learn, Keras & TensorFlow</u> textbook.</p>
+                  	<p>- Learning the TensorFlow library to incorporate into the project.
+			<p>- Researching different Machine Learning algorithms to find the optimum one to implement.</p>
+                  </div>
+                  <br/>
+                </div>
+                <div class='right-section'>
+                  <a href="images/snakeai.png"><img src="images/snakeai.png" alt='snake ai' width='450'/></a>
+                </div>
+              </div>
+              <div class="table-section-wrapper">
+                <p><b>Technology Used:</b></p>
+                <div class="table-section">
+                  <div class="col">
+                    <p>Python</p>
+                    <p>Tensorflow</p>
+                  </div>
+		</div>
+	</div>
+	</div>
+            <!-- End of ongoing projects -->
+            <span id="completed"></spa>
+            <h1 class='project-title'>
+              <small>Completed</small>
+            </h1>
+            <!--                        Enter new completed projects here                   -->
+	<!--		Dickinson Menu Project		-->
+		<div class='project-post'>
               <div class='top-section'>
                 <div class=left-section>
                   <div>
                   <h2>Dickinson Menu Bot</h2>
                   <div class="subtitle">
-                      <small class="project-info">(Sept 2019 - Present)</small>
+                      <small class="project-info">(Sept 2019 - July 2020)</small>
                       <small class="project-info"><a href="https://github.com/boosungkim/dickinson-menu-bot">GitHub</a></small>
                   </div>
                   <p><i>A Java webscraper that extracts and emails the users the daily menu from the Dickinson College Dining website.</i></p>
                   <br/>
                   <p><b>Motivation:</b></p>
-                  <p>I overheard my classmates complaining about how the college has no means of sending the dining menu to students directly, so I decided to make a program to solve the inconvenience.</p>
+                  <p>Overhearing my classmates complaining about the lack of a convenient method of checking menus, I decided to make a program to solve the inconvenience.</p>
                   <br/>
                   <p><b>Impact:</b></p>
-                  <p>Offers both the students and faculty on campus an easy method of checking the menu. Current userbase: 20.</p>
+                  <p>Offers an easy method of checking the menu to a student and faculty userbase of over 20 people.</p>
                   <br/>
-                  <p><b>In development:</b></p>
-                  <p>Switch Java code to Python for better implementation of future ideas.</p>
-                  <p>Add a subscription system/database to increase userbase.</p>
+                  	<p><b>Responsibilities:</b></p>
+			<p>- Built a Java webscraping application that collects, formats, and emails the college cafetaria menu to students and faculty</p>
+			<p>- Created an fully automated system using Raspberry Pi and crontab</p>
                   </div>
                   <br/>
                 </div>
@@ -63,12 +104,7 @@
                 </div>
               </div>
             </div>
-            <!-- End of ongoing projects -->
-            <span id="completed"></span>
-            <h1 class='project-title'>
-              <small>Completed</small>
-            </h1>
-            <!--                        Enter new completed projects here                   -->
+
             <!-- Personal Web Server System -->
             <span id="personal-web-server-system"></span>
             <div class='project-post'>
@@ -84,15 +120,17 @@
                   <p><i>My Debian based web server hosted on a Virtual Private Server for websites/web applications.</i></p>
                   <br/>
                   <p><b>Motivation:</b></p>
-                  <p>To host my website and various other web applications with the freedom to incorporate scripts for automation, I decided to create my own web server on a Virtual Private Server.</p>
+                  <p>To host my website and various other web applications with the freedom to incorporate scripts for automation, I created my own web server on a VPS.</p>
                   <br/>
                   <p><b>Impact:</b></p>
-                  <p>- A deeper understanding of SQL databases, which I will incorporate into the Dickinson Menu Bot project.</p>
-                  <p>- Started accumulating users in the email newsletter.</p>
+                  <p>- I now have an internet space to express my ideas freely.</p>
+                  <p>- Accumulated subscribers for the bi-weekly blog.</p>
                   <br/>
-                  <!-- <p><b>Features:</b></p>
-                  <p></p> -->
-                  </div>
+                  <p><b>Responsibilites:</b></p>
+                  <p>- Set up a personal web server using the LAMP stack (Linux, Apache, MariaDB, and PHP)</p>
+                  	<p>- Launched an SMTP email client to incorporate the email subscription feature</p>
+			<p>- Utilized various Linux ecosystems and tools: Debian, apt-get, vim, etc.</p>
+			</div>
                   <br/>
                 </div>
                 <div class='right-section'>
@@ -134,7 +172,8 @@
                   <br/>
                   <p><b>Impact:</b></p>
                   <p>I am now capable of basic usage of the Linux command line, troubleshooting, and technical documentations.</p>
-                </div>
+			</br>
+			</div>
                 <div class='right-section'>
                   <a href="images/thinkpad.png"><img src="images/thinkpad.png" alt='thinkpad with linux' width='450'/></a>
                 </div>
