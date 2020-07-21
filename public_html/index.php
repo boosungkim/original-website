@@ -140,6 +140,12 @@
         <div class='recent-blogs'>
             <h2>Recent blogs</h2>
             <div class='blogindex' style='width:100%'>
+		  <div class='row'>
+                   <p class='date'>2020/07/20</p>
+                   <p class='title'><a href="blogs/july2020/the-start-of-my-ai-journey.php">The start of my AI journey: Walking before running</a></p>
+                   <p class='tags'>[Devlog][Project]</p>
+                  </div>
+
                   <div class='row'>
                     <p class='date'>2020/07/03</p>
                     <p class='title'><a href="blogs/july2020/sticky-business-of-setting-up-a-web-server.php">Sticky business of setting up a web server</a></p>
