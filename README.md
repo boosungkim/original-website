@@ -15,22 +15,22 @@ This project includes a full chess engine, gui engine, and an AI engine. The AI 
 ## Demo
 Here are some demo images.
 <p align="center">
-<img src="images/site1" width="400"/>
+<img src="images/site1.jpeg" width="400"/>
 </p>
 <p align="center">
-<img src="images/site2" width="400"/>
+<img src="images/site2.jpeg" width="400"/>
 </p>
 <p align="center">
-<img src="images/site3" width="400"/>
+<img src="images/site3.jpeg" width="400"/>
 </p>
 <p align="center">
-<img src="images/site4" width="400"/>
+<img src="images/site4.jpeg" width="400"/>
 </p>
 <p align="center">
-<img src="images/site5" width="400"/>
+<img src="images/site5.jpeg" width="400"/>
 </p>
 <p align="center">
-<img src="images/site6" width="400"/>
+<img src="images/site6.jpeg" width="400"/>
 </p>
 
 <a name="credits"></a>
