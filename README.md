@@ -1,11 +1,12 @@
-# Old Personal Website
+# Old Personal Website <!-- omit in toc -->
 My old personal website built from scratch. This has been replaced with a newer version of the site under the same [URL](https://boosungkim.com)
 
-## Index
-1. [About](#about)
-2. [Demo](#demo)
-3. [Credits](#credits)
-4. [License](#license)
+
+## Index <!-- omit in toc -->
+- [About](#about)
+- [Demo](#demo)
+- [Credits](#credits)
+- [License](#license)
 
 <a name="about"></a>
 ## About
@@ -15,22 +16,22 @@ This project includes a full chess engine, gui engine, and an AI engine. The AI 
 ## Demo
 Here are some demo images.
 <p align="center">
-<img src="images/site1.jpeg" width="800"/>
+<img src="assets/site1.jpeg" width="800"/>
 </p>
 <p align="center">
-<img src="images/site2.jpeg" width="800"/>
+<img src="assets/site2.jpeg" width="800"/>
 </p>
 <p align="center">
-<img src="images/site3.jpeg" width="800"/>
+<img src="assets/site3.jpeg" width="800"/>
 </p>
 <p align="center">
-<img src="images/site4.jpeg" width="600"/>
+<img src="assets/site4.jpeg" width="600"/>
 </p>
 <p align="center">
-<img src="images/site5.jpeg" width="600"/>
+<img src="assets/site5.jpeg" width="600"/>
 </p>
 <p align="center">
-<img src="images/site6.jpeg" width="600"/>
+<img src="assets/site6.jpeg" width="600"/>
 </p>
 
 <a name="credits"></a>
